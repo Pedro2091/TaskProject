@@ -1,0 +1,27 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: "Cera Pro Medium";
+}
+
+@font-face {
+    font-family: "Cera Pro Medium";
+    src: url(../public/fonts/Cera-Pro-Medium.otf);
+
+    font-family: "Cera Pro Bold";
+    src: url(../public/fonts/Cera-Pro-Bold.otf);
+
+    font-family: "Cera Pro Black";
+    src: url(../public/fonts/Cera-Pro-Black.otf);
+}
+
+.main-background{
+    height: 100vh;
+    width: 100vw;
+    background: url(../public/images/Logo.svg) 2% 2% no-repeat, url(../public/images/Icon.svg) right bottom no-repeat, radial-gradient(82.29% 1000px at 12.81% -9.03%, #F551B1 0%, #121528 100%), #121528;   
+    background-size: 200px, 256px, auto;
+}
+

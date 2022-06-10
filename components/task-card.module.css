@@ -1,0 +1,64 @@
+.taskCard{
+    height: 500px;
+    width: 400px;
+    background-color: #F6F6F6;
+    border-radius: 28px;
+
+    display: grid;
+	grid-template-rows: 150px 150px 30px 30px auto auto;
+}
+
+.taskCard div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer{
+    font-size: 40pt;
+}
+
+.timeStartEnd{
+    font-size: 16pt;
+}
+
+
+.textDropDown{
+    font-size: 16pt;
+}
+
+
+.categories{
+    
+}
+
+.taksTitle{
+
+}
+
+.showMore{
+
+}
+
+
+
+.border{
+    height: 508px;
+    width: 408px;
+    border-radius: 30px;
+
+    background: radial-gradient(50% 50% at 50% 50%, #F551B1 0%, #121528 50%) no-repeat;
+    background-size: 300% 300%;
+    animation-duration: 4s;
+    animation-name: borderAnimation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes borderAnimation {
+    0% {background-position: -600px -750px;}
+    25% {background-position: -200px -750px;}
+    50% {background-position: -200px -200px;}
+    75% {background-position: -600px -200px;}
+    100% {background-position: -600px -750px;}
+}
